@@ -23,11 +23,13 @@ const createAdmin = require('./admin/create');
 const signinAdmin = require('./admin/signin');
 const getFarmers = require('./admin/getFarmers');
 const getIcos = require('./admin/getIcos');
+const getInvestors = require('./admin/getInvestors');
 
 router.use('/admin/create', createAdmin)
 router.use('/admin/signin', signinAdmin)
 router.use('/admin/getFarmers', getFarmers)
 router.use('/admin/getIcos', getIcos)
+router.use('/admin/getInvestors', getInvestors)
 
 // ico
 const createIco = require('./ico/create');
