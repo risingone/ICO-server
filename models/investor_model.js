@@ -58,6 +58,14 @@ const schema = new mongoose.Schema({
             type: String
         }
       },
+      icos: [{
+        ico_id:{
+            type: String
+        },
+        qty:{
+            type: Number
+        }
+      }],
 });
 
 const investor = mongoose.model("investor", schema);
