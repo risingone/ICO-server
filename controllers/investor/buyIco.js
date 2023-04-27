@@ -53,7 +53,7 @@ const buyIco = async(req,res) => {
                         id :ico_id
                     },{
                         sold_ico: sold_ico + qty,
-
+                        // ifIco[0].investors[k].qty: ifIco[0].investors[k].qty+qty
                     })                    
                 }
 

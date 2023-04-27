@@ -18,9 +18,11 @@ router.use('/investor/buyIco', buyIco)
 
 const createAdmin = require('./admin/create');
 const signinAdmin = require('./admin/signin');
+const getFarmers = require('./admin/getFarmers');
 
 router.use('/admin/create', createAdmin)
 router.use('/admin/signin', signinAdmin)
+router.use('/admin/getFarmers', getFarmers)
 
 const createIco = require('./ico/create');
 
