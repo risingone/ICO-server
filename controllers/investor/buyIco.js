@@ -38,8 +38,8 @@ const buyIco = async(req,res) => {
                 console.log(ifIco[0].investors.length);
 
                 let flag_investor = 0
-                
-                for(let k=0; k<ifIco[0].investors.length ; k++){
+                let k =0;
+                for(k=0; k<ifIco[0].investors.length ; k++){
                     if( investor_arr[k].investor_id === investor_id){
                         console.log('hai');
                         flag_investor = 1;
@@ -93,13 +93,32 @@ const buyIco = async(req,res) => {
                     })
 
                 }else if(flag_investor === 1){
-                    // const updateIco = await Ico.updateOne({
-                    //     id :ico_id
+                    console.log('inside else if');          
+                    
+                    // const newQty = ifIco[0].
+
+                    // const updatedIco = await Ico.updateOne({
+                    //     id: ico_id,
                     // },{
-                    //     sold_ico: sold_ico + qty,
-                    //     // ifIco[0].investors[k].qty: ifIco[0].investors[k].qty+qty
-                    // })
-                    console.log('inside else if');                    
+                    //     $set: {
+                    //         'investors[k].qty': newQty
+                    //     }
+                    // },
+                    //     {new: true}
+                    // )
+
+                    // const updateInvestor = await Investor.updateOne({
+                    //     id: investor_id
+                    // },{
+                    //     $push: {
+                    //         icos: {
+                    //             ico_id: ico_id,
+                    //             qty: qty
+                    //         }
+                    //     }
+                    // },
+                    // {new: true})
+
                 }
 
 

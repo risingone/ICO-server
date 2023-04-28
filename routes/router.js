@@ -24,12 +24,18 @@ const signinAdmin = require('./admin/signin');
 const getFarmers = require('./admin/getFarmers');
 const getIcos = require('./admin/getIcos');
 const getInvestors = require('./admin/getInvestors');
+const updatedInvestor = require('./admin/updateInvestor');
+const updatedIcos = require('./admin/updateIcos');
+const updatedFarmer = require('./admin/updateFarmer')
 
 router.use('/admin/create', createAdmin)
 router.use('/admin/signin', signinAdmin)
 router.use('/admin/getFarmers', getFarmers)
 router.use('/admin/getIcos', getIcos)
 router.use('/admin/getInvestors', getInvestors)
+router.use('/admin/updateInvestor', updatedInvestor)
+router.use('/admin/updateIco', updatedIcos)
+router.use('/admin/updateFarmer', updatedFarmer)
 
 // ico
 const createIco = require('./ico/create');
