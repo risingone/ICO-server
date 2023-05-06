@@ -18,9 +18,10 @@ const buyIco = async(req,res) => {
     try{
         const ifIco=await Ico.find({id: ico_id});
 
-        const ico_left=ifIco[0].total_ico-ifIco[0].sold_ico;
+
         // return  res.send('hello beta')
         if(ifIco){
+            const ico_left=ifIco[0].total_ico-ifIco[0].sold_ico;
             if(qty<=ico_left){
                 
                 /**
@@ -77,7 +78,7 @@ const buyIco = async(req,res) => {
                     const totalAmount = ((ifIco[0].price)/ifIco[0].total_ico) * qty;
 
                     const transaction = await Txn.create({
-                        txn_id:  uuidv4(),
+                        txn_id:  txn_id,
                         farmer_id: ifIco[0].farmer_id,
                         investor_id: investor_id,
                         ico_id: ico_id,
