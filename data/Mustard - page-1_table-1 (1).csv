@@ -1,6 +1,4 @@
-CROP MUSTARD                                                                                                                                                                                                                                                                   YEAR 2021-22,,,,,,,,,,
-DISTRICT,AREA (ha.),,,AREA IRRIGATED(ha.),PRODUCTION (MT),,,YIELD (Kg/ha.),,
-,Final estimate,Revised final estimate,Average last 5 yrs. Yr ending,,Final estimate,Revised final estimate,Average last 5 yrs. Yr ending,Final estimate,Revised final estimate,Average last 5 yrs. Yr ending
+DISTRICT,AREA (ha.) Final estimate,AREA (ha.) Revised final estimate,AREA (ha.) Average last 5 yrs. Yr ending,AREA IRRIGATED(ha.),PRODUCTION (MT) Final estimate,PRODUCTION (MT) Revised final estimate,PRODUCTION (MT) Average last 5 yrs. Yr ending,YIELD (Kg/ha.) Final estimate,YIELD (Kg/ha.) Revised final estimate,YIELD (Kg/ha.) Average last 5 yrs. Yr ending
 Jaipur,163029,86562,86773,98701,274814,138219,132501,1686,1597,1527
 Dausa,81377,53841,52705,61330,161469,99828,94111,1984,1854,1786
 Tonk,359341,253542,247395,332778,652288,441217,415544,1815,1740,1680

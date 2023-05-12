@@ -1,6 +1,4 @@
-CROP WHEAT                                                                                                                                                                                                                                                                     YEAR 2021-22,,,,,,,,,,
-DISTRICT,AREA (ha.),,,AREA IRRIGATED(ha.),PRODUCTION (MT),,,YIELD (Kg/ha.),,
-,Final estimate,Revised final estimate,Average last 5 yrs. Yr ending,,Final estimate,Revised final estimate,Average last 5 yrs. Yr ending,Final estimate,Revised final estimate,Average last 5 yrs. Yr ending
+DISTRICT,AREA (ha.) Final estimate,AREA (ha.) Revised final estimate,AREA (ha.) Average last 5 yrs. Yr ending,AREA IRRIGATED(ha.),PRODUCTION (MT) Final estimate,PRODUCTION (MT) Revised final estimate,PRODUCTION (MT) Average last 5 yrs. Yr ending,YIELD (Kg/ha.) Final estimate,YIELD (Kg/ha.) Revised final estimate,YIELD (Kg/ha.) Average last 5 yrs. Yr ending
 Jaipur,136277,145817,145603,135480,529647,559695,546629,3887,3838,3754
 Dausa,68201,92650,91258,68192,310543,401721,383197,4553,4336,4199
 Tonk,37868,44797,51991,37806,146861,159378,187329,3878,3558,3603
