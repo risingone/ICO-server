@@ -30,6 +30,14 @@ const schema = new mongoose.Schema({
         type: String,
         enum: ["approved","pending","rejected"],
       },
+      crop_status: {
+        type: String,
+        enum: ["sown","germinated","emerged","vegetative","flowering","fruiting","harvested"]
+      },
+      risk_reward: {
+        type: Number,
+        required: true
+      },
       investors: [{
         investor_id:{
             type: String

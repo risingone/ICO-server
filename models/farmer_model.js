@@ -58,6 +58,22 @@ const schema = new mongoose.Schema({
             type: String
         }
       },
+      revenue: [
+        {
+          cop: {
+            type: Number
+          },
+          return: {
+            type: Number
+          },
+          season: {
+            type: String
+          },
+          year: {
+            type: Number
+          }
+        }
+      ],
       documents: [{
         url: {
             type: String,
