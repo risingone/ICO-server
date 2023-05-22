@@ -1,4 +1,4 @@
-DISTRICT,AREA (ha.) Final estimate,AREA (ha.) Revised final estimate,AREA (ha.) Average last 5 yrs. Yr ending,AREA IRRIGATED(ha.),PRODUCTION (MT) Final estimate,PRODUCTION (MT) Revised final estimate,PRODUCTION (MT) Average last 5 yrs. Yr ending,YIELD (Kg/ha.) Final estimate,YIELD (Kg/ha.) Revised final estimate,YIELD (Kg/ha.) Average last 5 yrs. Yr ending
+DISTRICT,AREA (ha.) Final estimate,AREA (ha.) Revised final estimate,AREA (ha.) Average last 5 yrs. Yr ending,AREA IRRIGATED(ha.),PRODUCTION (MT) Final estimate,PRODUCTION (MT) Revised final estimate,PRODUCTION (MT) Average last 5 yrs. Yr ending,yield,YIELD (Kg/ha.) Revised final estimate,YIELD (Kg/ha.) Average last 5 yrs. Yr ending
 Jaipur,34718,31370,34024,24,30181,32131,27048,869,1024,795
 Dausa,3329,3454,4255,0,4013,2441,3465,1205,707,814
 Tonk,69264,72717,62697,5,65472,64061,42133,945,881,672
